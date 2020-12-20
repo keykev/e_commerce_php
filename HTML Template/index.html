@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Owl Carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <link rel = "stylesheet" href = "./sass/style.css" />
+
+    <title>Mobile Shopping</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id = 'header'>
+        <div class = "strip d-flex justify-content-between px-4 py-1 bg-light">
+            <p class = "font-raleway font-size-12 text-black m-0">Lorem ipsum 500-20 Eliwood Street, Washington 52123 @ (555)555-5555</p>
+            <div class="font-raleway font-size-14">
+                <a href="#" class="px-3 border-start border-end text-dark"> Login</a>
+                <a href="#" class="px-3 border-end text-dark">Wishlist(0)</a>
+            </div>
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark color-secondary-bg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Mobile Shopping</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto font-rubik">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products <i class="fas fa-chevron-down"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Coming Soon</a>
+                  </li>
+                </ul>
+                <form action = "#" class = "font-size-14 font-raleway">
+                    <a href = "#" class = "py-2 rounded-pill color-primary-bg">
+                        <span class = "font-size-16 px-2 text-white"><i class="fas fa-shopping-cart "></i></span>
+                        <span class = "px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                    </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!-- Main -->
+    <main id = "main-site">
+        <!-- Owl Carousel -->
+        <section id="banner-area">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src = "./assets/Banner1.jpg" alt = "Banner 1" />
+                </div>
+                <div class="item">
+                    <img src = "./assets/Banner2.jpg" alt = "Banner 2" />
+                </div>
+                <div class="item">
+                    <img src = "./assets/Banner1.jpg" alt = "Banner 1" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Sale -->
+        <section id="top-sale">
+            <div class="container py-5">
+                <h4 class = "font-rubik font-size-20">Top Sale</h4>
+                <hr />
+                <!-- Owl Carousel -->
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/1.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 1 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/2.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 2 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/3.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 3 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/4.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 4 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$59.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/5.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Chapter 1 to 50 Manga</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$39.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/6.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Chapter 51 to 134</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$79.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Special Sale -->
+        <section id = "special-sale">
+            <div class="container">
+                <h4 class = "font-rubik font-size-20">Special Price</h4>
+                <div id="filters" class="button-group float-end font-size-16">
+                    <button class="btn is-checked" data-filter = "*">All Brands</button>
+                    <button class = "btn" data-filter = ".wit-studio">Wit Studio</button>
+                    <button class = "btn" data-filter = ".mappa">Mappa</button>
+                    <button class = "btn" data-filter = ".ufotable">Ufotable</button>
+                </div>
+                <div class="grid mt-5">
+                    <div class="grid-item mappa border">
+                        <div class="item py-2">
+                            <div class="product font-raleway" style = "width:225px;">
+                                <a href = "#"><img src = "./assets/products/4.jpg" alt = "4" /></a>
+                                <div class="text-center py-3">
+                                    <h6>Attack On Titan Season 4 DVDS</h6>
+                                    <div class = "rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item wit-studio border">
+                        <div class="item py-2">
+                            <div class="product font-raleway" style = "width:225px;">
+                                <a href = "#"><img src = "./assets/products/1.jpg" alt = "1" /></a>
+                                <div class="text-center py-3">
+                                    <h6>Attack On Titan Season 1 DVDS</h6>
+                                    <div class = "rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item mappa border">
+                    <div class="item py-2">
+                        <div class="product font-raleway" style = "width:225px;">
+                            <a href = "#"><img src = "./assets/products/7.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Jujutsu no Kaisen</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="grid-item mappa border">
+                        <div class="item py-2">
+                            <div class="product font-raleway" style = "width:225px;">
+                                <a href = "#"><img src = "./assets/products/8.jpg" alt = "1" /></a>
+                                <div class="text-center py-3">
+                                    <h6>Dororo DVDS</h6>
+                                    <div class = "rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item ufotable border">
+                        <div class="item py-2">
+                            <div class="product font-raleway" style = "width:225px;">
+                                <a href = "#"><img src = "./assets/products/9.jpg" alt = "1" /></a>
+                                <div class="text-center py-3">
+                                    <h6>Owari no Seraph</h6>
+                                    <div class = "rating text-warning font-size-12">
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="fas fa-star"></i></span>
+                                        <span><i class="far fa-star"></i></span>
+                                    </div>
+                                    <div class="price py-2">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Ads -->
+        <section id="banner-ads">
+            <div class="container py-5 text-center">
+                <img src = "./assets/banner1ads.jpg" class = "img-fluid" alt = "banner1ads" />
+                <img src = "./assets/banner2ads.jpg" class = "img-fluid" alt = "banner2ads" />
+            </div>   
+        </section>
+
+        <!-- New Anime Section -->
+        <section id="new-anime">
+            <div class="container">
+                <h4 class = "font-rubik font-size-20">New Anime</h4>
+                <hr />
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/1.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 1 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/2.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 2 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="far fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/3.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 3 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$50.00</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/4.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Season 4 DVDS</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$59.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/5.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Chapter 1 to 50 Manga</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$39.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-raleway">
+                            <a href = "#"><img src = "./assets/products/6.jpg" alt = "1" /></a>
+                            <div class="text-center py-3">
+                                <h6>Attack On Titan Chapter 51 to 134</h6>
+                                <div class = "rating text-warning font-size-12">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                                <div class="price py-2">
+                                    <span>$79.99</span>
+                                </div>
+                                <button type = "submit" class = "btn btn-warning font-size-14">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- Blogs -->
+        <section id="blogs">
+            <div class="container">
+                <h4 class = "font-rubik font-size-20">Latest Blogs</h4>
+                <hr />
+
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card border-0 font-raleway mr-5" style='width: 18rem;'>
+                            <h5 class = "card-title font-size-16">Upcoming Anime</h5>
+                            <img src = "./assets/blogs/blog1.jpg" alt = "blog1" class = "card-img-top" />
+                            <p class="card-text font-size-16 py-1 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus omnis voluptatem praesentium aut ducimus delectus numquam facere vel sunt.</p>
+                            <a href="#" class = "color-secondary text-left">Go Somewhere</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-raleway mr-5" style='width: 18rem;'>
+                            <h5 class = "card-title font-size-16">Upcoming Anime</h5>
+                            <img src = "./assets/blogs/blog2.jpg" alt = "blog2" class = "card-img-top" />
+                            <p class="card-text font-size-16 py-1 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus omnis voluptatem praesentium aut ducimus delectus numquam facere vel sunt.</p>
+                            <a href="#" class = "color-secondary text-left">Go Somewhere</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 font-raleway mr-5" style='width: 18rem;'>
+                            <h5 class = "card-title font-size-16">Upcoming Anime</h5>
+                            <img src = "./assets/blogs/blog3.jpg" alt = "blog3" class = "card-img-top" />
+                            <p class="card-text font-size-16 py-1 text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus omnis voluptatem praesentium aut ducimus delectus numquam facere vel sunt.</p>
+                            <a href="#" class = "color-secondary text-left">Go Somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id = "footer" class = "bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h4 class = "font-rubic font-size-20">Mobile Shopping</h4>
+                    <p class = "font-size-14 font-raleway text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident porro ex quo facilis sunt? Temporibus numquam placeat doloremque omnis aliquam!</p>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h4 class = "font-rubic font-size-20">Newsletter</h4>
+                    <form class = "row">
+                        <div class="col">
+                            <input type = "text" name = "email" class = "form-control" placeholder = "Email" />
+                        </div>
+                        <div class="col">
+                            <button type = "submit" class = "btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class = "font-rubik font-size-20">Information</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class = "font-raleway font-size-14 text-white-50 pb-1">About Us</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Delivery</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <h4 class = "font-rubik font-size-20">Account</h4>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="#" class = "font-raleway font-size-14 text-white-50 pb-1">My Account</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Order History</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Wishlist</a>
+                        <a href="#" class="font-raleway font-size-14 text-white-50 pb-1">Newsletter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="bg-dark text-white text-center py-2">
+        <p class = "font-raleway font-size-14">&copy; Copyright 2020 Design By <a href = "#" class = "color-secondary">Kevin Yang</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" type = "text/javascript"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+
+    <script src = "./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

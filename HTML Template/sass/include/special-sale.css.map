@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,aADS,CACT,UAAU,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,MAAM;CACvB",
+    "sources": [
+        "special-sale.scss"
+    ],
+    "names": [],
+    "file": "special-sale.css"
+}

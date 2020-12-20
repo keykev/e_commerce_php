@@ -1,0 +1,25 @@
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#top-sale .owl-carousel .product img {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#top-sale .owl-carousel .product img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button .owl-prev {
+  left: 0;
+  font-style: 35px;
+}
+/*# sourceMappingURL=top-sale.css.map */

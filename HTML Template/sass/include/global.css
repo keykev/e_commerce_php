@@ -1,0 +1,6 @@
+button, button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=global.css.map */
